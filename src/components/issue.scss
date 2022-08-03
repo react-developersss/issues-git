@@ -1,0 +1,53 @@
+.issue {
+  border: 1px;
+  background-color: #0d1117;
+  border: 0.5px solid #484b4f;
+  padding: 11px 16px;
+
+  &:hover {
+    background-color: #161b22;
+  }
+  .issue-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 7px;
+
+    span svg {
+      fill: #3fb950;
+    }
+
+    h3 {
+      font-size: 16px;
+      line-height: 24px;
+      color: #c9d1d9;
+
+      &:hover{
+        color: #58a6ff;
+        cursor: pointer;
+      }
+    }
+  }
+  .issue-comment {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8b949e;
+    cursor: pointer;
+    &:hover {
+      color: #58a6ff;
+    }
+    span svg {
+      fill: #8b949e;
+      &:hover {
+        fill: #58a6ff;
+      }
+    }
+  }
+  .issue-id {
+    padding-left: 25px;
+  }
+}
