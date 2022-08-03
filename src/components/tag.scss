@@ -1,0 +1,26 @@
+span {
+  font-family: sans-serif;
+  padding: 5px 7px;
+  border-radius: 24px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 2px;
+}
+
+.status {
+  background: #454657;
+  border: 1px solid #d2c1ed;
+  color: #d2c1ed;
+}
+
+.resolution {
+  background: #393c3d;
+  border: 1px solid #fffdca;
+  color: #fffdca;
+}
+
+.bug {
+  background: #33161d;
+  border: 1px solid #f7806b;
+  color: #f7806b;
+}
