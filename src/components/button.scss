@@ -1,0 +1,44 @@
+.buttons {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #0d1117;
+
+  button {
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: all 0.3s linear;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .all {
+    background-color: #238636;
+    opacity: 0.8;
+    color: #fff;
+
+    &:hover {
+      background-color: #4b9b5b;
+    }
+  }
+
+  .finish {
+    background-color: #9aba24;
+    opacity: 0.8;
+    color: #fff;
+
+    &:hover {
+      background-color: #9bd461;
+    }
+  }
+
+  .no-finish {
+    background-color: #ba245d;
+    opacity: 0.8;
+    color: #fff;
+
+    &:hover {
+      background-color: #d46180;
+    }
+  }
+}

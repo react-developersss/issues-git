@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
-import './button.scss';
+import React, { Component } from "react";
 
-export class Button extends Component {
+import "./button.scss";
+
+class Button extends Component {
   render() {
     return (
-      <div>Button</div>
-    )
+      <div className="buttons">
+        <button className="all">All</button>
+        <button className="finish">Finished</button>
+        <button className="no-finish">No Finished</button>
+      </div>
+    );
   }
 }
 
-export default Button
+export default Button;
