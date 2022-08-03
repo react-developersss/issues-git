@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import Id from "./id";
+import Id from "../id/id";
 import "./issue.scss";
-import Tag from "./tag";
+import Tag from "../tag/tag";
 
 class Issue extends Component {
   render() {
     const { issue } = this.props;
+    console.log(issue);
     return (
       <div>
         <div className="issue">
@@ -15,7 +16,7 @@ class Issue extends Component {
             <Tag issue={issue} />
             <div className="issue-comment">
               <span>{iconComment}</span>
-              <span>1</span>
+              <span>{issue.comments}</span>
             </div>
           </div>
           <div className="issue-id">
