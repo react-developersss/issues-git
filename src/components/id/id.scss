@@ -1,0 +1,20 @@
+p{
+  color: #8B949E;
+  font-size: 14px;
+
+  .tooltipLink{
+
+    
+    &:hover{
+      cursor: pointer;
+    }
+  
+    .btn{
+      border: none;
+      font-size: 14px;
+      background-color: transparent;
+      color: #8B949E;
+    }
+  }
+
+}
