@@ -5,9 +5,9 @@ import './base.scss';
  class App extends Component {
   render() {
     return (
-      <>
+      <div className='container'>
       <Issues/>
-      </>
+      </div>
     )
   }
 }
