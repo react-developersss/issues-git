@@ -8,6 +8,7 @@ class Id extends Component {
       <p>
         #{issue.id + " opened " + issue.createdDate + "  "} by{" "}
         <a href={issue.user.avatar_url} className="tooltipLink">
+          {/* // */}
           <button
             type="button"
             className="btn btn-secondary d-block py-3 px-5"
