@@ -13,16 +13,12 @@
     gap: 10px;
     margin-bottom: 7px;
 
-    span svg {
-      fill: #3fb950;
-    }
-
     h3 {
       font-size: 16px;
       line-height: 24px;
       color: #c9d1d9;
 
-      &:hover{
+      &:hover {
         color: #58a6ff;
         cursor: pointer;
       }
@@ -31,8 +27,7 @@
   .issue-comment {
     margin-left: auto;
     display: flex;
-    align-items: center;
-    gap: 5px;
+    gap: 4px;
     font-size: 14px;
     line-height: 24px;
     color: #8b949e;
@@ -40,8 +35,9 @@
     &:hover {
       color: #58a6ff;
     }
-    span svg {
+    b svg {
       fill: #8b949e;
+      margin-top: 5px;
       &:hover {
         fill: #58a6ff;
       }

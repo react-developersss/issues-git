@@ -15,8 +15,8 @@ class Issue extends Component {
             <h3>{issue.title}. </h3>
             <Tag issue={issue} />
             <div className="issue-comment">
-              <span>{iconComment}</span>
-              <span>{issue.comments}</span>
+              <b>{iconComment}</b>
+              <b>{issue.comments}</b>
             </div>
           </div>
           <div className="issue-id">
@@ -30,6 +30,7 @@ class Issue extends Component {
 
 const iconDecoration = (
   <svg
+  fill="green"
     className="octicon octicon-issue-opened open"
     viewBox="0 0 16 16"
     version="1.1"
@@ -44,6 +45,7 @@ const iconDecoration = (
 
 const iconComment = (
   <svg
+    fill="#fff"
     aria-hidden="true"
     height="16"
     viewBox="0 0 16 16"

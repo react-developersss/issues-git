@@ -5,10 +5,11 @@ class Tag extends Component {
   render() {
     const { issue } = this.props;
     return (
-      <div>
+      <div className="types-container">
         <>
           {issue.tags.map((tag, idx) => (
             <span
+            classNam ="types"
               key={idx}
               className={tag.type}
               data-toggle="tooltip"

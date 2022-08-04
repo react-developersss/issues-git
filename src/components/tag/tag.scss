@@ -1,10 +1,16 @@
-span {
+.types-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span{
   font-family: sans-serif;
-  padding: 5px 7px;
+  padding: 2px 7px;
   border-radius: 24px;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: bold;
-  margin: 0 2px;
+  margin: 2px 2px;
   cursor: pointer;
 }
 
